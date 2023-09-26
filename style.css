@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 22px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  font-family: Roboto;
+  padding-top: 40px;
+  padding-bottom: 190px;
+  position: relative;
+}
+
+.gender-issues-list li a {
+  text-decoration: underline;
+  color: black;
+}
+
+main {
+  background-color: rgb(255, 255, 255);
+  width: 70vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1000px;
+  gap: 20px;
+}
+
+.title-container {
+  display: flex;
+  text-align: center;
+}
+
+#title {
+  font-size: 60px;
+}
+
+.image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 70vw;
+  max-width: 1000px;
+}
+
+.image {
+  width: 70vw;
+  max-width: 1000px;
+}
+
+.source {
+  text-decoration: none;
+  color: rgb(210, 210, 210);
+  font-size: 12px;
+  align-self: flex-start;
+}
+
+.contents-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.gender-issues-list {
+  margin-left: 20px;
+}
+
+.link-list {
+  text-decoration: underline;
+  color: rgb(0, 0, 0);
+}
+
+.lists-container {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.list-title {
+  font-weight: bold;
+}
+
+#list-1, #list-2, #list-3, #list-4, #list-5 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer {
+  background-color: rgb(24, 23, 66);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 150px;
+  color: rgb(132, 132, 132);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-contents {
+  width: 70vw;
+  max-width: 1000px;
+  font-size: 12px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
