@@ -140,7 +140,7 @@ main {
   body {
     padding-bottom: 320px;
   }
-  .list-description {
+  * {
     font-size: 18px;
   }
 }
@@ -150,15 +150,18 @@ main {
     gap: 20px;
   }
   .footer {
-    height: 310px;
+    height: 230px;
   }
   body {
-    padding-bottom: 370px;
+    padding-bottom: 300px;
   }
-  .list-description {
+  * {
     font-size: 14px;
   }
   .footer-source {
     font-size: 11px;
+  }
+  .my-info p {
+    font-size: 12px;
   }
 }
