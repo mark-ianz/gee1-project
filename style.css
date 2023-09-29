@@ -29,6 +29,15 @@ main {
   gap: 20px;
 }
 
+.title-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 40px;
+  width: 70vw;
+  max-width: 1000px;
+}
+
 .my-info {
   display: flex;
   gap: 20px;
@@ -36,13 +45,6 @@ main {
 
 .my-info p {
   font-size: 16px;
-}
-
-.title-container {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  gap: 40px;
 }
 
 #title {
@@ -143,6 +145,9 @@ main {
   * {
     font-size: 18px;
   }
+  #title {
+    font-size: 50px;
+  }
 }
 
 @media (max-width: 560px) {
@@ -163,5 +168,26 @@ main {
   }
   .my-info p {
     font-size: 12px;
+  }
+  #title {
+    font-size: 40px;
+  }
+  .lists-container {
+    gap: 40px;
+  }
+  main,.title-container,.image-container,.image,.footer-contents {
+    width: 85vw;
+  }
+}
+
+@media (max-width: 400px) {
+  #title {
+    font-size: 10vw;
+  }
+  .my-info p {
+    font-size: 11px;
+  }
+  .lists-container {
+    gap: 20px;
   }
 }
