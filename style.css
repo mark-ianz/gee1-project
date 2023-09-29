@@ -9,7 +9,7 @@ body {
   justify-content: center;
   font-family: Roboto;
   padding-top: 40px;
-  padding-bottom: 190px;
+  padding-bottom: 220px;
   position: relative;
 }
 
@@ -29,9 +29,20 @@ main {
   gap: 20px;
 }
 
+.my-info {
+  display: flex;
+  gap: 20px;
+}
+
+.my-info p {
+  font-size: 16px;
+}
+
 .title-container {
   display: flex;
+  flex-direction: column;
   text-align: center;
+  gap: 40px;
 }
 
 #title {
@@ -90,6 +101,10 @@ main {
   gap: 10px;
 }
 
+.footer-source {
+  text-decoration: underline;
+}
+
 .footer {
   background-color: rgb(24, 23, 66);
   position: absolute;
@@ -101,6 +116,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 20px 0;
 }
 
 .footer-contents {
@@ -110,4 +126,39 @@ main {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  word-wrap: break-word;
+}
+
+@media (max-width: 770px) {
+  .footer {
+    height: 250px;
+  }
+  .footer-contents {
+    flex-direction: column;
+    gap: 30px;
+  }
+  body {
+    padding-bottom: 320px;
+  }
+  .list-description {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 560px) {
+  .footer-contents {
+    gap: 20px;
+  }
+  .footer {
+    height: 310px;
+  }
+  body {
+    padding-bottom: 370px;
+  }
+  .list-description {
+    font-size: 14px;
+  }
+  .footer-source {
+    font-size: 11px;
+  }
 }
